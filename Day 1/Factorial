@@ -1,0 +1,27 @@
+// Factorial(use for loop)
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception{
+	    
+	    Scanner scn = new Scanner(System.in);
+	    int n = scn.nextInt();
+	    
+	    int fact = 1;
+	    for(int i = n; i >= 1; i--){
+	        fact = fact * i;
+	    }
+	    System.out.println(fact);
+	}
+}
+
+
+//Input: 
+4
+
+//Output:
+//24
