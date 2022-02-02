@@ -1,0 +1,31 @@
+// Largest among three numbers
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception{
+	    Scanner scn = new Scanner(System.in);
+	    
+	    int a = scn.nextInt();
+	    int b = scn.nextInt();
+	    int c = scn.nextInt();
+	    
+	    if(a > b && a > c){
+	        System.out.println(a + " is the largest of all");
+	    }else if(b > a && b > c){
+	        System.out.println(b + " is the largest of all");
+	    }else{
+	        System.out.println(c + " is the largest of all");
+	    }
+	}
+}
+
+
+//Input:
+12 19 11
+
+//Output:
+19 is the largest of all
