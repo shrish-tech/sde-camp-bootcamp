@@ -1,0 +1,26 @@
+// Check whether the number is even or odd
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception{
+	    Scanner scn = new Scanner(System.in);
+	    
+	    int n = scn.nextInt();
+	    
+	    if(n % 2 == 0){
+	        System.out.println("Even");
+	    }else{
+	        System.out.println("Odd");
+	    }
+	}
+}
+
+//Input:
+12
+
+//Output:
+Even
