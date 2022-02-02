@@ -1,1 +1,30 @@
+//Code for taking input and producing output of basic data types.
 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		char c = scn.next().charAt(0);
+		double d = scn.nextDouble();
+		
+		System.out.println(n + ": is an Integer");
+		System.out.println(c + ": is a Character");
+		System.out.println(d + ": is a Double");
+	}
+}
+
+//Input Given:
+5
+s
+5.5
+
+//Output Shown:
+5: is an Integer
+s: is a Character
+5.5: is a Double
