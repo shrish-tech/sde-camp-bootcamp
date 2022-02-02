@@ -1,0 +1,25 @@
+Try some type conversions (int to double, float to int, etc)
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception{
+	    Scanner scn = new Scanner(System.in);
+	    
+	    //double to float
+	    double d = scn.nextDouble();
+	    int c = (int)d;
+	    
+	    System.out.println(c);
+	}
+}
+
+
+//Input:
+9.88888
+
+//Output:
+9
